@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Toboolist</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- intestazione -->
+    <header>
+      <img src="img/Logo.png" alt="Logo" id="logo">
+      <h1 id="logotipo">Toboolist</h1>
+    </header>
+    <!-- /intestazione -->
+
+    <!-- corpo principale -->
+    <main>
+      <div class="contenitore">
+
+        <!-- aggiungi task -->
+        <div class="add">
+          <input type="button" value="Add Task" class="button blue">
+          <input type="button" value="Add Section" class="button white">
+        </div>
+        <!-- /aggiungi task -->
+
+        <!-- lista tasks-->
+        <div class="tasks">
+
+          <!-- nuova task -->
+          <div class="new-task">
+            <ul>
+              <li>
+                <h3>&blacktriangledown; New Task</h3>
+                <ul>
+                  <li><span class="tondo check">&check;</span>Quarterly Newsletter<span class="etichetta blue">Editorial</span></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- /nuova task -->
+
+          <!-- oggi -->
+          <div class="today">
+            <ul>
+              <li>
+                <h3>&blacktriangledown; Today</h3>
+                <ul>
+                  <li><span class="tondo check">&check;</span>Recruiting Blog Post<span class="etichetta blue">Editorial</span></li>
+                  <li><span class="tondo check">&check;</span>Mobile App Launch<span class="etichetta purple">Q1 Goals</span></li>
+                  <li><span class="tondo cross">&cross;</span>Interview John H.<span class="etichetta green">Recruiting</span></li>
+                  <li><span class="tondo check">&check;</span>Summit update to mobile storefronts<span class="etichetta orange">Mobile</span></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- /oggi -->
+
+          <!-- prossimamente -->
+          <div class="upcoming">
+            <ul>
+              <li>
+                <h3>&blacktriangledown; Upcoming</h3>
+                <ul>
+                  <li><span class="tondo cross">&cross;</span>Schedule meeting with Alex</li>
+                  <li><span class="tondo check">&check;</span>Homepage Refresh<span class="etichetta pink">Website</span></li>
+                  <li><span class="tondo check">&check;</span>Onboard new Sales team members<span class="etichetta light-green">Sales</span></li>
+                  <li><span class="tondo check">&check;</span>Summit update to mobile storefronts<span class="etichetta blue">Editorial</span></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- /prossimamente -->
+
+        </div>
+        <!-- /lista tasks -->
+
+      </div>
+
+    </main>
+    <!-- /corpo principale -->
+
+  </body>
+</html>
